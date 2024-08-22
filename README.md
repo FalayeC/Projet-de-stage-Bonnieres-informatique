@@ -1,0 +1,3 @@
+Il vous faudra tout d'abord installer WAMP64 sur votre machine, puis importer le code SQL dans votre base de données pour configurer l'environnement correctement.
+
+A suivre...

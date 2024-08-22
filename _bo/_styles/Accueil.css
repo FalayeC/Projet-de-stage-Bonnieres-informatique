@@ -1,0 +1,29 @@
+/* Styles généraux */
+.Title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Title p {
+    font-size: larger;
+}
+
+.Title h1 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+@media (max-width: 768px) {
+    .Title {
+        padding-left: 240px; /* Décalage pour compenser la largeur du menu */
+    }
+
+    .Title p {
+        font-size: medium; /* Réduit la taille du texte pour les paragraphes */
+    }
+
+    .Title h1 {
+        font-size: large; /* Réduit la taille du texte pour les titres */
+    }
+}

@@ -1,0 +1,82 @@
+.article-list {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-left: 230px; /* Décalage pour la sidebar */
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+
+
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-header {
+    background-color: #3498db;
+    color: white;
+}
+
+.table-striped tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-striped tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #2980b9;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #1a6b8f;
+}
+
+.btn-warning {
+    background-color: #f39c12;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #d68a12;
+}
+
+.img-thumbnail {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.edit-article {
+    margin-top: 20px; /* Ajoute un espace au-dessus de "edit article" */
+    padding: 20px; /* Ajoute un peu d'espace à l'intérieur de "edit article" */
+    margin-left: 220px;
+}
+.edit-article img {
+    max-width: 100%; /* Reduit la largeur maximale de l'image à 100% de la largeur de son contenant */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

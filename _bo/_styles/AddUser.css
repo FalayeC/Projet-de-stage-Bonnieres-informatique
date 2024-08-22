@@ -1,0 +1,17 @@
+/* Styles généraux */
+.Contain-Center {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-left: 230px; /* Décalage pour la sidebar */
+}
+
+/* Media Queries pour une version mobile */
+@media (max-width: 768px) {
+    .Contain-Center {
+        width: 90%; /* Augmente la largeur pour occuper plus d'espace sur les tablettes */
+        margin-left: 230px;
+    }
+}
